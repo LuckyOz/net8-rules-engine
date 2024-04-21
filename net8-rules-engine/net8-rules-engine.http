@@ -1,0 +1,6 @@
+@net8_rules_engine_HostAddress = http://localhost:5020
+
+GET {{net8_rules_engine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
